@@ -72,36 +72,36 @@
    switch (opcao1)
  {
    case 1:
-       printf("1. População\n");
+       printf("1: População\n");
        // Calculo dos atributos
        valor1_carta1 = populacao1;
        valor1_carta2 = populacao2;
        break;
    case 2: 
-       printf("2. Área\n");
+       printf("2: Área\n");
        valor1_carta1 = area1;
        valor1_carta2 = area2;
        break;
         
    case 3: 
-       printf("3. PIB\n");
+       printf("3: PIB\n");
        valor1_carta1 = pib1;
        valor1_carta2 = pib2;
       
        break;
    case 4:
-       printf("4. Pontos Turísticos\n");
+       printf("4: Pontos Turísticos\n");
        valor1_carta1 = pontoTuristico1;
        valor1_carta2 = pontoTuristico2;
       
        break;
    case 5:
-       printf("5. Densidade Demográfica\n");
+       printf("5: Densidade Demográfica\n");
        valor1_carta1 = inver_densidade1;
        valor1_carta2 = inver_densidade2;
        break;
       
- default:
+   default:
        printf("Opção Inválida!\n");
        break;
  } 
